@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.App button {
+  margin: 25px;
+  background: #fff;
+  width: 150px;
+  height: 40px;
+  border: 1px solid grey;
+}
+
+.App button:focus {
+  outline: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
